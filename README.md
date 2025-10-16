@@ -57,3 +57,35 @@ The project includes **black-box and white-box testing** to ensure correctness a
 
 ```bash
 g++ main.cpp bank.cpp -o BankingApp
+```
+
+3. Run the program:
+   ```bash
+   ./BankingApp       # Linux/macOS
+BankingApp.exe     # Windows
+```
+
+4. Optional: Run automated tests:
+```bash
+g++ tests.cpp bank.cpp -o BankingTests
+./BankingTests
+```
+
+
+**Testing**
+
+**Black Box Tests:**
+Validated deposit, withdraw, transfer, and check balance functionality using normal inputs.
+
+**White Box Tests:**
+Checked edge cases, including negative deposits, withdrawals exceeding balance, transfers to invalid accounts, and invalid account queries.
+
+Test results are printed as PASS/FAIL for each scenario.
+
+**Technologies & Methodologies**
+
+Language: C++
+
+Testing: Black-box & White-box testing
+
+Development Methodology: Agile
