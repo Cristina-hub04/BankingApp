@@ -60,8 +60,10 @@ g++ main.cpp bank.cpp -o BankingApp
 ```
 
 3. Run the program:
-   ```bash
+```bash
    ./BankingApp       # Linux/macOS
+```
+```bash
 BankingApp.exe     # Windows
 ```
 
